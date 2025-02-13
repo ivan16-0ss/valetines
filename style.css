@@ -1,0 +1,71 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #fbe4e4; /* Romantic pink */
+  color: #6c4f2f; /* Elegant gold */
+  overflow-x: hidden;
+}
+
+h1, p {
+  text-align: center;
+  color: #6c4f2f;
+}
+
+.section {
+  padding: 50px;
+  margin: 50px;
+  text-align: center;
+  border-radius: 15px;
+  background-color: #fff3f3;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+button {
+  background-color: #ff9b9b;
+  border: none;
+  padding: 15px 30px;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ff5c5c;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.gallery img, .gallery video {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  transition: transform 0.5s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}
+
+button.reveal-button {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+#background-music {
+  display: none;
+}
+
+.reveal-message {
+  display: none;
+  color: #6c4f2f;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.reveal-button:hover {
+  background-color: #ff5c5c;
+}
