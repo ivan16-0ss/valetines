@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Valentine's Love Letter</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Background music (Mine by Taylor Swift) -->
+  <audio id="background-music" autoplay loop>
+    <source src="path_to_your_music/Mine_Taylor_Swift.mp3" type="audio/mp3">
+  </audio>
+
+  <!-- Section: Our Memories -->
+  <section id="memories" class="section">
+    <h1>Our Memories</h1>
+    <div class="gallery">
+      <!-- Add your 10 pictures here -->
+      <img src="path_to_your_image1.jpg" alt="Memory 1">
+      <img src="path_to_your_image2.jpg" alt="Memory 2">
+      <img src="path_to_your_image3.jpg" alt="Memory 3">
+      <img src="path_to_your_image4.jpg" alt="Memory 4">
+      <img src="path_to_your_image5.jpg" alt="Memory 5">
+      <img src="path_to_your_image6.jpg" alt="Memory 6">
+      <img src="path_to_your_image7.jpg" alt="Memory 7">
+      <img src="path_to_your_image8.jpg" alt="Memory 8">
+      <img src="path_to_your_image9.jpg" alt="Memory 9">
+      <img src="path_to_your_image10.jpg" alt="Memory 10">
+      <!-- Videos will autoplay and be muted -->
+      <video autoplay muted loop>
+        <source src="path_to_video/video1.mp4" type="video/mp4">
+      </video>
+      <video autoplay muted loop>
+        <source src="path_to_video/video2.mp4" type="video/mp4">
+      </video>
+      <video autoplay muted loop>
+        <source src="path_to_video/video3.mp4" type="video/mp4">
+      </video>
+    </div>
+  </section>
+
+  <!-- Section: My Message for You -->
+  <section id="message" class="section">
+    <h1>My Message for You</h1>
+    <p>
+      From the moment we met, I knew my world had changed forever. With each passing day, my love for you grows deeper, and my heart beats only for you. You've filled my life with so much happiness, laughter, and warmth, and I am incredibly grateful for every moment we share...
+      <br><br>
+      Forever yours, <br> Ivan
+    </p>
+    <button onclick="showFullMessage()">Read More</button>
+  </section>
+
+  <!-- Section: Interactive Elements -->
+  <section id="interactive" class="section">
+    <button class="reveal-button" onclick="revealElement('message')">Show My Love Message</button>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
